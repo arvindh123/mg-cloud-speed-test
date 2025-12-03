@@ -142,7 +142,7 @@ def ensure_clean_dir(path: Path):
 
 def main():
     data, summary, urls = load_har_data()
-    out_dir = Path("charts/profile-page")
+    out_dir = Path("docs/profile-page")
     ensure_clean_dir(out_dir)
 
     # Summary load-time chart

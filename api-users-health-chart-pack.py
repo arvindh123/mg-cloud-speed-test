@@ -127,7 +127,7 @@ def ensure_dir(path: Path):
 
 def main():
     data, summary, urls = load_har_data()
-    out_dir = Path("charts/api-users-health")
+    out_dir = Path("docs/api-users-health")
     ensure_dir(out_dir)
 
     # Summary load-time chart
