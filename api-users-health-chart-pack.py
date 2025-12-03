@@ -125,6 +125,29 @@ def ensure_dir(path: Path):
     path.mkdir(parents=True, exist_ok=True)
 
 
+def write_root_index():
+    """Create/overwrite docs/index.html to link both chart packs with summaries."""
+    docs = Path("docs")
+    docs.mkdir(exist_ok=True)
+    api_summary = "api-users-health/summary_load_time.png"
+    profile_summary = "profile-page/summary_load_time.png"
+    html = [
+        "<!DOCTYPE html>",
+        "<html lang=\"en\">",
+        "<head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+        "<title>HAR Chart Packs</title>",
+        "<style>body{font-family:Arial,sans-serif;margin:2rem;line-height:1.5;} h1{margin-bottom:0.2rem;} p{color:#444;} .card{margin:1rem 0;} img{max-width:900px;width:100%;}</style>",
+        "</head><body>",
+        "<h1>HAR Chart Packs</h1>",
+        "<div class=\"card\"><h2>API Users Health</h2><p><a href=\"api-users-health/index.html\">Open chart pack</a></p>",
+        f"<img src=\"{api_summary}\" alt=\"API summary\"></div>",
+        "<div class=\"card\"><h2>Profile Page</h2><p><a href=\"profile-page/index.html\">Open chart pack</a></p>",
+        f"<img src=\"{profile_summary}\" alt=\"Profile summary\"></div>",
+        "</body></html>",
+    ]
+    (docs / "index.html").write_text("\n".join(html))
+
+
 def main():
     data, summary, urls = load_har_data()
     out_dir = Path("docs/api-users-health")
@@ -223,7 +246,8 @@ def main():
     html.append("</body></html>")
     index_path = out_dir / "index.html"
     index_path.write_text("\n".join(html))
-    print(f"Charts written to {out_dir} and index.html generated at {index_path}.")
+    write_root_index()
+    print(f"Charts written to {out_dir} and index.html generated at {index_path}. Root docs/index.html updated.")
 
 
 if __name__ == "__main__":
