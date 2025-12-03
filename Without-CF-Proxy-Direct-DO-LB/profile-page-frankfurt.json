@@ -1,0 +1,3414 @@
+{
+    "log": {
+        "version": "1.2",
+        "creator": {
+            "version": "",
+            "name": "Pingdom"
+        },
+        "pages": [
+            {
+                "id": "https://cloud.magistrala.absmach.eu/en/profile",
+                "title": "https://cloud.magistrala.absmach.eu/en/profile",
+                "pageTimings": {
+                    "_navigation_timing": {
+                        "secureConnectionStart": 0,
+                        "redirectStart": 1764770384340,
+                        "domContentLoadedEventStart": 1764770384825,
+                        "domContentLoadedEventEnd": 1764770384825,
+                        "redirectEnd": 1764770384480,
+                        "fetchStart": 1764770384480,
+                        "navigationStart": 1764770384339,
+                        "domainLookupEnd": 1764770384480,
+                        "connectEnd": 1764770384480,
+                        "unloadEventEnd": 0,
+                        "requestStart": 1764770384480,
+                        "responseEnd": 1764770384705,
+                        "unloadEventStart": 0,
+                        "domLoading": 1764770384703,
+                        "connectStart": 1764770384480,
+                        "loadEventStart": 1764770385098,
+                        "responseStart": 1764770384601,
+                        "loadEventEnd": 1764770385098,
+                        "domComplete": 1764770385098,
+                        "domInteractive": 1764770384824,
+                        "domainLookupStart": 1764770384480
+                    },
+                    "onLoad": 759,
+                    "_fullyLoaded": 1361,
+                    "onContentLoad": 486
+                },
+                "startedDateTime": "2025-12-03T13:59:44.349704Z"
+            }
+        ],
+        "entries": [
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.349704Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/en/profile",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        }
+                    ],
+                    "headersSize": 477,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0,
+                    "send": 0.1420006156,
+                    "ssl": 14.0829980373,
+                    "connect": 16.6199952364,
+                    "dns": 73.209002614,
+                    "wait": 7.6580047607,
+                    "blocked": 0
+                },
+                "time": 111.7120012641,
+                "response": {
+                    "status": 307,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "",
+                        "_resourceType": "Redirect",
+                        "size": 0
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "307"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "location",
+                            "value": "/login?callbackUrl=%2Fen%2Fprofile"
+                        }
+                    ],
+                    "headersSize": 177,
+                    "redirectURL": "/login?callbackUrl=%2Fen%2Fprofile",
+                    "httpVersion": "",
+                    "bodySize": 0
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.473460Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/login?callbackUrl=%2Fen%2Fprofile",
+                    "queryString": [
+                        {
+                            "name": "callbackUrl",
+                            "value": "/en/profile"
+                        }
+                    ],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        }
+                    ],
+                    "headersSize": 472,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0,
+                    "send": 0.1000016928,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 14.9279981852,
+                    "blocked": 0.3479942679
+                },
+                "time": 15.3759941459,
+                "response": {
+                    "status": 307,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "",
+                        "_resourceType": "Redirect",
+                        "size": 0
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "307"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "location",
+                            "value": "/en/login?callbackUrl=%2Fen%2Fprofile"
+                        }
+                    ],
+                    "headersSize": 180,
+                    "redirectURL": "/en/login?callbackUrl=%2Fen%2Fprofile",
+                    "httpVersion": "",
+                    "bodySize": 0
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.489656Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile",
+                    "queryString": [
+                        {
+                            "name": "callbackUrl",
+                            "value": "/en/profile"
+                        }
+                    ],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        }
+                    ],
+                    "headersSize": 475,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 104.0220031738,
+                    "send": 0.0670030713,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 121.124997735,
+                    "blocked": 0.2100020647
+                },
+                "time": 225.4240060449,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/html",
+                        "_resourceType": "Document",
+                        "size": 75808
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding"
+                        },
+                        {
+                            "name": "link",
+                            "value": "<https://cloud.magistrala.absmach.eu/en/login>; rel=\"alternate\"; hreflang=\"en\", <https://cloud.magistrala.absmach.eu/de/login>; rel=\"alternate\"; hreflang=\"de\", <https://cloud.magistrala.absmach.eu/sr/login>; rel=\"alternate\"; hreflang=\"sr\", <https://cloud.magistrala.absmach.eu/login>; rel=\"alternate\"; hreflang=\"x-default\"\n</_next/static/media/739c2d8941231bb4-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/abf98b2abcdbd573.css>; rel=preload; as=\"style\", </_next/static/css/e771c44a50dae3b6.css>; rel=preload; as=\"style\""
+                        },
+                        {
+                            "name": "x-middleware-rewrite",
+                            "value": "/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "x-powered-by",
+                            "value": "Next.js"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/html; charset=utf-8"
+                        }
+                    ],
+                    "headersSize": 1136,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 22230
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.713645Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/media/739c2d8941231bb4-s.p.woff2",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "origin",
+                            "value": "https://cloud.magistrala.absmach.eu"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 528,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 1.7649993896,
+                    "send": 3.7080049515,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 5.8379992843,
+                    "blocked": 2.3219957948
+                },
+                "time": 13.6329994202,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "font/woff2",
+                        "_resourceType": "Font",
+                        "size": 32752
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "32752"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"7ff0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "font/woff2"
+                        }
+                    ],
+                    "headersSize": 328,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 33013
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.713736Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "origin",
+                            "value": "https://cloud.magistrala.absmach.eu"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 528,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 4.0500030518,
+                    "send": 1.8899962306,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 6.7090019584,
+                    "blocked": 3.9089992642
+                },
+                "time": 16.558000505,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "font/woff2",
+                        "_resourceType": "Font",
+                        "size": 48432
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "48432"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"bd30-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "font/woff2"
+                        }
+                    ],
+                    "headersSize": 328,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 48711
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.713808Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/abf98b2abcdbd573.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 490,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 4.8519973755,
+                    "send": 1.7770007253,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 7.8149959445,
+                    "blocked": 3.8670003414
+                },
+                "time": 18.3109943867,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 123936
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"1e420-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 366,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 20823
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.715044Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/webpack-b80cd65c35b59642.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 485,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.8209915161,
+                    "send": 0.1359954476,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 88.5470062494,
+                    "blocked": 4.9810037017
+                },
+                "time": 94.4849969149,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 43159
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"a897-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 23384
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.713861Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/e771c44a50dae3b6.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 490,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3400039673,
+                    "send": 1.7139986157,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 91.7030051351,
+                    "blocked": 3.7140026689
+                },
+                "time": 97.4710103869,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 4004
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"fa4-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 364,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 1077
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.714934Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/media/authLogo.59ea595a.svg",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 514,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3759994507,
+                    "send": 0.0780001283,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 6.3790008426,
+                    "blocked": 0.3010034561
+                },
+                "time": 7.1340038776,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "image/svg+xml",
+                        "_resourceType": "Image",
+                        "size": 16549
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:10 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"40a5-19adf312010\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "image/svg+xml"
+                        }
+                    ],
+                    "headersSize": 355,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 7682
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716175Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/app/%5Blocale%5D/(app)/layout-b4d9c5a0442100bf.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 507,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.4670028687,
+                    "send": 0.1319944859,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 8.3340033889,
+                    "blocked": 0.425003469
+                },
+                "time": 9.3580042124,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 20176
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"4ed0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 6635
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716121Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/40867-24b106b5648edbf1.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 1.1629943848,
+                    "send": 0.1569986343,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 8.028998971,
+                    "blocked": 0.4420056939
+                },
+                "time": 9.790997684,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 31882
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"7c8a-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 9348
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716064Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/main-app-3267ec133fe45348.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 486,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.2410049438,
+                    "send": 0.1830011606,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 9.6419975162,
+                    "blocked": 0.4779994488
+                },
+                "time": 10.5440030694,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 572
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "572"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"23c-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 375,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 831
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.715977Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/65264-dc11e68888cdad2a.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 10.4990005493,
+                    "send": 0.2109929919,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 9.3990042806,
+                    "blocked": 0.5360022187
+                },
+                "time": 20.6450000405,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 172276
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2a0f4-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 380,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 46829
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716337Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/app/%5Blocale%5D/loading-98f017f93adc0ad2.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 502,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.4749984741,
+                    "send": 0.1180022955,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 14.2169967294,
+                    "blocked": 0.4829987884
+                },
+                "time": 15.2929962873,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 4659
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"1233-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 2492
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716279Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/43423-49ad8b8120df9a57.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3369979858,
+                    "send": 0.184006989,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 15.4519975185,
+                    "blocked": 0.5019977689
+                },
+                "time": 16.4750002623,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 25366
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"6316-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 8377
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716456Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/87524-df2a52a55c85cce2.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 1.1280059814,
+                    "send": 0.0870004296,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 9.4319954515,
+                    "blocked": 0.2660006285
+                },
+                "time": 10.913002491,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 48368
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"bcf0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 14791
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716667Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/38874-526f584e6aadcd4b.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3470077515,
+                    "send": 0.0689998269,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 6.504997611,
+                    "blocked": 0.1849979162
+                },
+                "time": 7.1060031056,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 8565
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2175-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 3690
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716607Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/app/%5Blocale%5D/layout-df215d4a79c4add9.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 501,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.4140090942,
+                    "send": 0.0529959798,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 54.3949976563,
+                    "blocked": 0.2690032125
+                },
+                "time": 55.1310059428,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 10734
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"29ee-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 4012
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716399Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/2065e367-738d69ba223595b9.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 486,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 75.2259979248,
+                    "send": 0.0870004296,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 15.014000237,
+                    "blocked": 0.4310011864
+                },
+                "time": 90.7579997778,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 157100
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"265ac-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 380,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 51900
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716723Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/75245-4381628e6d93ed7c.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 2.6670074463,
+                    "send": 0.0839978456,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 59.9009990692,
+                    "blocked": 0.2040043473
+                },
+                "time": 62.8560087085,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 83664
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"146d0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 380,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 25399
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716867Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/28381-f69fef083c6248e7.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3870010376,
+                    "send": 0.0849962234,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 7.5950026512,
+                    "blocked": 0.2530068159
+                },
+                "time": 8.3200067282,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 23076
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"5a24-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 6693
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716822Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/28214-f7bd4fbe2e13f9bd.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3260040283,
+                    "send": 0.1200065017,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 8.1520006061,
+                    "blocked": 0.3439933062
+                },
+                "time": 8.9420044422,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 11457
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2cc1-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 4628
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716918Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/app/%5Blocale%5D/(auth)/login/page-db91e715f9db634b.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 512,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.4630050659,
+                    "send": 0.1240000129,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 84.8210006952,
+                    "blocked": 0.4300028086
+                },
+                "time": 85.8380085826,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 6428
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"191c-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 2928
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.715919Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/ad6b4c6d-bd23cbb78334428b.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 486,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 111.1300048828,
+                    "send": 0.2460032701,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 91.0319983959,
+                    "blocked": 0.6519928575
+                },
+                "time": 203.0599994063,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 173026
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2a3e2-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 380,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 54718
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716524Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/72283-44c31ff2dbd0a071.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 1.5579986572,
+                    "send": 0.1159980893,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 179.652005434,
+                    "blocked": 0.7790029049
+                },
+                "time": 182.1050050855,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 33960
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"84a8-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 9640
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716968Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/app/%5Blocale%5D/error-c58756f7ba7b9f2b.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 500,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 4.1529998779,
+                    "send": 0.0860020518,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 125.5040019751,
+                    "blocked": 0.3699958324
+                },
+                "time": 130.1129997373,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 10308
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2844-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 4540
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716230Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/0f9dcbb3-4ea2e6533b43a41b.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 486,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 95.9469985962,
+                    "send": 0.0629946589,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 191.8800026178,
+                    "blocked": 0.1860037446
+                },
+                "time": 288.0759996176,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 69536
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"10fa0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:44 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 380,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 22079
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:44.716771Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/chunks/28743-4a3deeebaf794acf.js",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 86.0459976196,
+                    "send": 0.0780001283,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 124.6230006218,
+                    "blocked": 0.2159997821
+                },
+                "time": 210.9629981518,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/javascript",
+                        "_resourceType": "Script",
+                        "size": 9506
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"2522-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/javascript; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 379,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 4318
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:45.406913Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/e771c44a50dae3b6.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 490,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.3489990234,
+                    "send": 0.0969991088,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 6.3029974699,
+                    "blocked": 0.2780035138
+                },
+                "time": 7.0269991159,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 4004
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"fa4-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 364,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 1077
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:45.406847Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/abf98b2abcdbd573.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 490,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 3.4899978638,
+                    "send": 0.137001276,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 7.0179998875,
+                    "blocked": 0.4939958453
+                },
+                "time": 11.1389948726,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 123936
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"1e420-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 366,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 20823
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/en/profile",
+                "startedDateTime": "2025-12-03T13:59:45.109219Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/favicon.ico",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/en/login?callbackUrl=%2Fen%2Fprofile"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 485,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 313.4420013428,
+                    "send": 0.0710040331,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 296.6339960694,
+                    "blocked": 0.2089962363
+                },
+                "time": 610.3559976816,
+                "response": {
+                    "status": 404,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/html",
+                        "_resourceType": "Other",
+                        "size": 29480
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "404"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding"
+                        },
+                        {
+                            "name": "link",
+                            "value": "</_next/static/media/739c2d8941231bb4-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/abf98b2abcdbd573.css>; rel=preload; as=\"style\", </_next/static/css/e771c44a50dae3b6.css>; rel=preload; as=\"style\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:59:45 GMT"
+                        },
+                        {
+                            "name": "x-powered-by",
+                            "value": "Next.js"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/html; charset=utf-8"
+                        }
+                    ],
+                    "headersSize": 752,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 11862
+                }
+            }
+        ]
+    }
+}

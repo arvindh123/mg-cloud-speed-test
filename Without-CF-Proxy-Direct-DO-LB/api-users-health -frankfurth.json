@@ -1,0 +1,682 @@
+{
+    "log": {
+        "version": "1.2",
+        "creator": {
+            "version": "",
+            "name": "Pingdom"
+        },
+        "pages": [
+            {
+                "id": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "title": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "pageTimings": {
+                    "_navigation_timing": {
+                        "secureConnectionStart": 1764768963262,
+                        "redirectStart": 0,
+                        "domContentLoadedEventStart": 1764768963299,
+                        "domContentLoadedEventEnd": 1764768963299,
+                        "redirectEnd": 0,
+                        "fetchStart": 1764768963251,
+                        "navigationStart": 1764768963251,
+                        "domainLookupEnd": 1764768963261,
+                        "connectEnd": 1764768963275,
+                        "unloadEventEnd": 0,
+                        "requestStart": 1764768963275,
+                        "responseEnd": 1764768963291,
+                        "unloadEventStart": 0,
+                        "domLoading": 1764768963297,
+                        "connectStart": 1764768963261,
+                        "loadEventStart": 1764768963299,
+                        "responseStart": 1764768963284,
+                        "loadEventEnd": 1764768963299,
+                        "domComplete": 1764768963299,
+                        "domInteractive": 1764768963299,
+                        "domainLookupStart": 1764768963254
+                    },
+                    "onLoad": 48,
+                    "_fullyLoaded": 374,
+                    "onContentLoad": 48
+                },
+                "startedDateTime": "2025-12-03T13:36:03.253279Z"
+            }
+        ],
+        "entries": [
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.253279Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/api/users/health",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "upgrade-insecure-requests",
+                            "value": "1"
+                        }
+                    ],
+                    "headersSize": 483,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 7.2179946899,
+                    "send": 0.2709999681,
+                    "ssl": 12.7360001206,
+                    "connect": 13.5710015893,
+                    "dns": 7.6240003109,
+                    "wait": 8.2549974322,
+                    "blocked": 0
+                },
+                "time": 49.6749941111,
+                "response": {
+                    "status": 401,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "application/json",
+                        "_resourceType": "Document",
+                        "size": 62
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "401"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "62"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "application/json"
+                        }
+                    ],
+                    "headersSize": 183,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 182
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.338041Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/media/739c2d8941231bb4-s.p.woff2",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "origin",
+                            "value": "https://cloud.magistrala.absmach.eu"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/api/users/health"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 508,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.8949966431,
+                    "send": 0.3009960055,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 9.0759992599,
+                    "blocked": 0.8430033922
+                },
+                "time": 11.1149953008,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "font/woff2",
+                        "_resourceType": "Font",
+                        "size": 32752
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "32752"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"7ff0-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "font/woff2"
+                        }
+                    ],
+                    "headersSize": 328,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 33022
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.338215Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/e771c44a50dae3b6.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/api/users/health"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 470,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.4050064087,
+                    "send": 0.1600012183,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 10.5949938297,
+                    "blocked": 0.5270019174
+                },
+                "time": 11.6870033741,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 4004
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"fa4-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 364,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 1068
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.338121Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "origin",
+                            "value": "https://cloud.magistrala.absmach.eu"
+                        },
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "*/*"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/api/users/health"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 508,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 0.9699935913,
+                    "send": 0.2469941974,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 13.2890045643,
+                    "blocked": 0.7119998336
+                },
+                "time": 15.2179921865,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "font/woff2",
+                        "_resourceType": "Font",
+                        "size": 48432
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-length",
+                            "value": "48432"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"bd30-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "font/woff2"
+                        }
+                    ],
+                    "headersSize": 328,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 48711
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.338168Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/_next/static/css/abf98b2abcdbd573.css",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "text/css,*/*;q=0.1"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/api/users/health"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 470,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 2.3380050659,
+                    "send": 0.1979991794,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 13.0620002747,
+                    "blocked": 0.6150007248
+                },
+                "time": 16.2130052447,
+                "response": {
+                    "status": 200,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/css",
+                        "_resourceType": "Stylesheet",
+                        "size": 123936
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "200"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "accept-ranges",
+                            "value": "bytes"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "Accept-Encoding"
+                        },
+                        {
+                            "name": "last-modified",
+                            "value": "Tue, 02 Dec 2025 13:12:36 GMT"
+                        },
+                        {
+                            "name": "etag",
+                            "value": "W/\"1e420-19adf3185a0\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "public, max-age=31536000, immutable"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/css; charset=UTF-8"
+                        }
+                    ],
+                    "headersSize": 366,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 20823
+                }
+            },
+            {
+                "pageref": "https://cloud.magistrala.absmach.eu/api/users/health",
+                "startedDateTime": "2025-12-03T13:36:03.306693Z",
+                "cache": {},
+                "request": {
+                    "cookies": [],
+                    "url": "https://cloud.magistrala.absmach.eu/favicon.ico",
+                    "queryString": [],
+                    "headers": [
+                        {
+                            "name": "accept-language",
+                            "value": "en-US,en;q=0.8"
+                        },
+                        {
+                            "name": "accept-encoding",
+                            "value": "gzip, deflate, br"
+                        },
+                        {
+                            "name": "accept",
+                            "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+                        },
+                        {
+                            "name": "user-agent",
+                            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+                        },
+                        {
+                            "name": "referer",
+                            "value": "https://cloud.magistrala.absmach.eu/api/users/health"
+                        },
+                        {
+                            "name": "pragma",
+                            "value": "no-cache"
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "no-cache"
+                        }
+                    ],
+                    "headersSize": 465,
+                    "bodySize": 0,
+                    "method": "GET",
+                    "httpVersion": ""
+                },
+                "timings": {
+                    "receive": 291.0759963989,
+                    "send": 0.1119971275,
+                    "ssl": 0,
+                    "connect": 0,
+                    "dns": 0,
+                    "wait": 30.069001019,
+                    "blocked": 0.3060027957
+                },
+                "time": 321.5629973412,
+                "response": {
+                    "status": 404,
+                    "cookies": [],
+                    "statusText": "",
+                    "content": {
+                        "mimeType": "text/html",
+                        "_resourceType": "Other",
+                        "size": 29480
+                    },
+                    "headers": [
+                        {
+                            "name": "status",
+                            "value": "404"
+                        },
+                        {
+                            "name": "content-encoding",
+                            "value": "gzip"
+                        },
+                        {
+                            "name": "strict-transport-security",
+                            "value": "max-age=31536000; includeSubDomains"
+                        },
+                        {
+                            "name": "vary",
+                            "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding"
+                        },
+                        {
+                            "name": "link",
+                            "value": "</_next/static/media/739c2d8941231bb4-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/e4af272ccee01ff0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/abf98b2abcdbd573.css>; rel=preload; as=\"style\", </_next/static/css/e771c44a50dae3b6.css>; rel=preload; as=\"style\""
+                        },
+                        {
+                            "name": "cache-control",
+                            "value": "private, no-cache, no-store, max-age=0, must-revalidate"
+                        },
+                        {
+                            "name": "date",
+                            "value": "Wed, 03 Dec 2025 13:36:03 GMT"
+                        },
+                        {
+                            "name": "x-powered-by",
+                            "value": "Next.js"
+                        },
+                        {
+                            "name": "content-type",
+                            "value": "text/html; charset=utf-8"
+                        }
+                    ],
+                    "headersSize": 752,
+                    "redirectURL": "",
+                    "httpVersion": "",
+                    "bodySize": 11907
+                }
+            }
+        ]
+    }
+}
